@@ -1,13 +1,14 @@
 # 文字滚动View
-### 效果
+**[GitHub](http://)**
+### 效果([无法显示效果点击这里](https://gitee.com/BDWen/TextScrollDome))
 ![项目中应用](https://images.gitee.com/uploads/images/2020/0629/122327_ae87d793_1032805.gif "ezgif.com-resize.gif")![demo](https://images.gitee.com/uploads/images/2020/0629/122414_c00033e9_1032805.gif "ezgif.com-resize (1).gif")
 
  **原理其实就是把文字逐行绘制出来，利用属性动画改变绘制的位置来实现滚动**
- 
-**代码写的有点粗糙，分享出来希望能帮到大家** 
+
+**代码写的有点粗糙，分享出来希望能帮到大家**
 
 # 使用
- **直接复制代码或者[下载Demo](https://github.com/Levine1992/TextScrollDome.git)把文件复制到自己项目也可以** 
+ **直接复制下面代码或者[下载Demo](https://github.com/Levine1992/TextScrollDome.git)把文件复制到自己项目也可以**
 
 ```
 package com.example.demo;
