@@ -8,7 +8,58 @@
 **代码写的有点粗糙，分享出来希望能帮到大家**
 
 # 使用
- **直接复制下面代码或者[下载Demo](https://github.com/Levine1992/TextScrollDome.git)把文件复制到自己项目也可以**
+
+ **1.布局中添加**
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.demo.TextScrollView
+        android:id="@+id/tsv_txt"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>
+```
+ **2.代码中设置文字数据**
+
+```
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        LogUtils.getConfig().globalTag = "123456"
+        setContentView(R.layout.activity_main)
+
+        tsv_txt.setTextSizeDp(20)
+        tsv_txt.setTextColor("#000000")
+
+        val strings = arrayListOf<String>()
+        strings.add("1111111111111111111111111111111111111111111111111111111111111111111")
+        strings.add("222222222222222222222222222222222222")
+        strings.add("333333333333333333333333333333333")
+        strings.add("4444444444444444444444444444444")
+        strings.add("55555555555555555555555555555555555555555")
+        strings.add("6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666")
+        strings.add("7777777777777")
+        strings.add("888888888888888888888888888888888888888888888888")
+        strings.add("99999999999999999999999999999999999999999999999999999")
+        strings.add("00000000000000000000000000000000000000000000000000000000")
+        tsv_txt.setData(strings)
+    }
+}
+```
+
+
+ **直接复制下面代码或者[下载Demo](https://github.com/Levine1992/TextScrollDome.git)把文件复制到自己项目就可以**
 
 ```
 package com.example.demo;
