@@ -1,5 +1,5 @@
 # 文字滚动View
-**[GitHub](http://)**
+**[GitHub](https://github.com/Levine1992/TextScrollDome)**
 ### 效果([无法显示效果点击这里](https://gitee.com/BDWen/TextScrollDome))
 ![项目中应用](https://images.gitee.com/uploads/images/2020/0629/122327_ae87d793_1032805.gif "ezgif.com-resize.gif")![demo](https://images.gitee.com/uploads/images/2020/0629/122414_c00033e9_1032805.gif "ezgif.com-resize (1).gif")
 
